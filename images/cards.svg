@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title description">
+  <title id="title">Original collectible card illustration</title>
+  <desc id="description">A colorful stack of imaginary trading cards decorated with stars, waves, and a lightning bolt.</desc>
+  <defs>
+    <linearGradient id="back" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f2a568"/>
+      <stop offset="1" stop-color="#e55748"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#84dbcd"/>
+      <stop offset="1" stop-color="#3286a2"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#080808" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <circle cx="470" cy="82" r="115" fill="#ffca70" opacity=".16"/>
+  <circle cx="115" cy="332" r="115" fill="#f3a5bb" opacity=".14"/>
+  <g filter="url(#shadow)" transform="rotate(-12 260 215)">
+    <rect x="131" y="52" width="270" height="340" rx="23" fill="url(#back)" stroke="#ffe0a6" stroke-width="8"/>
+    <rect x="154" y="75" width="224" height="294" rx="14" fill="#27243c"/>
+    <path d="M183 278c33-74 78-97 139-119-18 55-42 101-96 132-18 10-34 7-43-13Z" fill="#ee9c73"/>
+    <path d="m259 158 24 48-27 4 16 45-51-57 29-4-10-36Z" fill="#ffda71"/>
+    <circle cx="264" cy="183" r="73" fill="none" stroke="#8acfc6" stroke-width="3" opacity=".8"/>
+    <path d="M178 108h123" stroke="#fff1d2" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+    <circle cx="339" cy="107" r="9" fill="#ffda71"/>
+    <path d="M186 322h151" stroke="#fff1d2" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+    <path d="M193 339h112" stroke="#fff1d2" stroke-width="4" stroke-linecap="round" opacity=".38"/>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(13 375 230)">
+    <rect x="322" y="122" width="166" height="225" rx="17" fill="#edb86c" stroke="#fff0bd" stroke-width="7"/>
+    <rect x="337" y="137" width="136" height="194" rx="9" fill="#e86c59"/>
+    <path d="m405 171 10 21 24 4-17 16 4 24-21-11-21 11 4-24-17-16 24-4Z" fill="#ffe59a"/>
+    <circle cx="405" cy="208" r="48" fill="none" stroke="#fff0bd" stroke-width="3" opacity=".75"/>
+  </g>
+  <path d="m493 63 8 18 20 3-14 14 3 19-17-9-17 9 3-19-14-14 20-3Z" fill="#ffe08a"/>
+  <path d="m92 92 6 13 14 2-10 10 2 14-12-7-13 7 3-14-10-10 14-2Z" fill="#f7a5b5"/>
+  <circle cx="496" cy="320" r="9" fill="#8dd7cb"/>
+</svg>

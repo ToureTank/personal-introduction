@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-labelledby="title description">
+  <title id="title">Original anniversary-inspired card artwork</title>
+  <desc id="description">A colorful, original celebration card with a bright sunburst, number thirty, orbiting stars, and confetti.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#312e58"/>
+      <stop offset=".55" stop-color="#59406f"/>
+      <stop offset="1" stop-color="#9b4e63"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".45" r=".55">
+      <stop offset="0" stop-color="#fff5bf"/>
+      <stop offset=".7" stop-color="#ffc86d"/>
+      <stop offset="1" stop-color="#f28b62"/>
+    </radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#080713" flood-opacity=".45"/>
+    </filter>
+    <clipPath id="card">
+      <rect x="76" y="28" width="448" height="304" rx="24"/>
+    </clipPath>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="76" y="28" width="448" height="304" rx="24" fill="#f3d996"/>
+    <g clip-path="url(#card)">
+      <rect x="86" y="38" width="428" height="284" rx="18" fill="url(#background)"/>
+      <path d="m300 22 17 95 50-83-19 94 78-59-56 81 96-20-85 51 98 18-98 13 83 55-97-23 51 85-76-63 13 97-47-87-26 94-4-98-63 74 34-92-91 35 73-64-98-2 95-28-81-55 99 19-54-82 76 61Z" fill="#ffd47a" opacity=".22"/>
+      <circle cx="300" cy="177" r="96" fill="url(#sun)" stroke="#fff1bc" stroke-width="5"/>
+      <circle cx="300" cy="177" r="78" fill="none" stroke="#fff9dc" stroke-width="2" opacity=".8"/>
+      <text x="300" y="202" fill="#473253" font-family="Georgia, serif" font-size="78" font-weight="700" letter-spacing="-8" text-anchor="middle">30</text>
+      <path d="M143 268c87-32 216-32 314 0" fill="none" stroke="#f4d5a2" stroke-width="3" opacity=".9"/>
+      <text x="300" y="291" fill="#fff6e2" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="4" text-anchor="middle">A LITTLE CELEBRATION</text>
+      <path d="m164 91 8 16 18 2-13 13 3 18-16-9-16 9 3-18-13-13 18-2Z" fill="#b9e8dc"/>
+      <path d="m445 106 6 12 14 2-10 10 2 14-12-7-13 7 3-14-10-10 14-2Z" fill="#f2a5c3"/>
+      <circle cx="205" cy="215" r="5" fill="#8de0d4"/>
+      <circle cx="396" cy="218" r="6" fill="#fff1b1"/>
+      <path d="m128 174 5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2Z" fill="#ed9d77"/>
+      <path d="m470 190 5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2Z" fill="#a8d7e3"/>
+    </g>
+  </g>
+</svg>
